@@ -1,0 +1,106 @@
+body {
+    height: 90vh;
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 -80vh;
+    position: relative;
+}
+
+.navbar {
+    margin: 0 -15px;
+}
+
+.nav-link {
+    padding: 0.2rem 0.5rem;
+}
+
+.nav-item {
+    height: 30px;
+}
+
+.nav-img {
+    height: 2.5rem;
+    margin-right: 3rem;
+}
+
+.content {
+    background-color: white;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+h4 {
+    font-family: 'Arbutus Slab', sans-serif;
+}
+
+.intro-text {
+    font-family: 'Arbutus Slab', sans-serif;
+    background-color: #425058;
+    color: white;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    font-size: 2.2em;
+    /* display: flex; */
+}
+
+.intro-text p {
+    margin: 0;
+}
+
+.intro-text p.sub-text {
+    font-size: 85%;
+    font-weight: 200;
+}
+
+.div-body-content {
+    padding: 1rem;
+}
+
+.tab-content {
+    padding: 1rem;
+}
+
+.priority-tracker {
+    margin-top: 1rem;
+}
+
+.col-border-tracker {
+    border-right: 1px solid grey;
+}
+
+.priority-header {
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    background-color: #00A19A;
+    font-family: 'Arbutus Slab', sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.priority-header p {
+    margin: auto;
+}
+
+h6 {
+    font-family: 'Arbutus Slab', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 0.3rem;
+}
+
+p.goal-description {
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+    font-style: italic;
+    color: #71727A;
+}
+
+.progress-stacked {
+    margin-bottom: 0.1rem;
+}
