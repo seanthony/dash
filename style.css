@@ -57,6 +57,7 @@ h4 {
 }
 
 .div-body-content {
+    width: 100%;
     padding: 1rem;
 }
 
@@ -82,6 +83,7 @@ h4 {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+    margin-bottom: 1rem;
 }
 
 .priority-header p {

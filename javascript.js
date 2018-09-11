@@ -8,7 +8,8 @@ function alignDivHeights() {
     if (height > 0) {
         height = (height + 2 * 16) + 'px';
         $(".priority-header").css({
-            'height': height
+            'height': height,
+            'magin-bottom': '1rem'
         });
     }
 }
@@ -16,7 +17,7 @@ function alignDivHeights() {
 $(alignDivHeights)
 
 function loadMap() {
-    $('#map').html(HTML_A);
+    $('#map').append(HTML_A);
     $('#map').append(HTML_B);
 }
 
